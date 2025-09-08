@@ -6,43 +6,79 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../style/style.css">
 
     <title>Carlos Eduardo</title>
+    <link rel="icon" type="image/png" href="../img/favicon2.png">
 </head>
 <body>
     <!-- HEADER -->
     <nav class="nav">
         <ul class="nav-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#about">Sobre</a></li>
         </ul>
     </nav>
 
     <!-- MAIN -->
 
-    <section class="main">
+    <section id="home" class="main">
         <div>
             <h1>Seja bem vindo</h1>
             <p>Crie suas ideias e construa o futuro.</p>
-        <a href="">
+        <a href="#projects">
             <button class="button-acess">Veja mais ☕</button>
         </a>
         </div>
     </section>
 
     <!-- ABOUT -->
-     <section class="about">
+     <section id="about" class="container-about">
         <div>
             <h2>Sobre</h2>
             <p>👋 Olá, me chamo Carlos Eduardo, atualmente, sou estudante do curso de Ciência da Computação na UNIVASF e busco uma oportunidade para contribuir com meu conhecimento e habilidades. <br> Meu interesse pela área de tecnologia surgiu em 2020, ano em que iniciei o curso técnico em Informática integrado ao ensino médio pelo IFSERTÃOPE. <br><br> Durante esse período, tive contato com conceitos fundamentais como banco de dados, lógica de programação e diversas linguagens, incluindo Python, JavaScript, PHP e Java. No ensino superior, venho aprofundando ainda mais meus conhecimentos, com disciplinas que desafiam e ampliam minha capacidade lógica, além da participação em projetos práticos — como o desenvolvimento de um sistema de cadastro de plantas utilizando APIs e Java na disciplina de Programação Orientada a Objetos. Tenho grande interesse por inovações e pelo constante crescimento no setor de tecnologia.</p>
         </div>
 
-        <!-- Projetos -->
+        <div class="links">
+            <h2>Links e Contatos</h2>
+            
+            <a href="https://www.linkedin.com/in/carlos-eduardo-a1b547330/" target="_blank"><img src="../img/linkedin-logo.png" alt="linkedin-logo"></a>
+            <a href="https://github.com/Eduardo4456" target="_blank"><img src="../img/github.png" alt="github-logo"></a>
+            <a href="mailto:eduardosantn12123@gmail.com" target="_blank"><img src="../img/gmail-logo.png" alt="gmail-logo"></a>
+        </div>
+
      </section>
+
+     <!-- PROJECTS -->
+
+        <section id="projects" class="projects">
+            <h2>Meus Projetos</h2>
+            <p>Conheça meus projetos</p>
+
+            <div class="project-list">
+                <img src="../img/codigo2.jpg" alt="Projeto 1">
+                <img src="../img/codigo2.jpg" alt="Projeto 2">
+                <img src="../img/codigo2.jpg" alt="Projeto 3">
+            </div>
+
+            <div class="project-list">
+                <img src="../img/codigo2.jpg" alt="Projeto 4">
+                <img src="../img/codigo2.jpg" alt="Projeto 5">
+                <img src="../img/codigo2.jpg" alt="Projeto 6">
+            </div>
+        </section>
+
+        <!-- RODAPE -->
+
+        <footer>
+            <h3>
+                <a href="https://www.linkedin.com/in/carlos-eduardo-a1b547330/" target="_blank">&#169; Carlos Eduardo</a>
+            </h3>
+            <p>todos os direitos reservados</p>
+        </footer>
 
 </body>
 </html>
