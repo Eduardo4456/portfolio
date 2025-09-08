@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
+.nav {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fcf7d3;
+    padding: 20px;
+}
+
+.nav-list a:hover {
+    color: #DDD;
+}
+
+/* MAIN */
+
+.main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../img/café.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1 {
+    font-size: 40px;
+    color: #fcf7d3;
+}
+
+.main p {
+    font-size: 20px;
+    font-style: italic;
+    color: #fcf7d3;
+}
+
+.button-acess {
+    cursor: pointer;
+    background-color: #fcf7d3;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.main a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.button-acess:hover {
+    transform: scale(1.1);
+}
+
+/* ABOUT */
+
+.about {
+    background-color: #fcf7d3;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-right: 10%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div {
+    max-width: 50%;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+.about div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
