@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Eduardo | Portfólio</title>
+    
+    <link rel="stylesheet" href="style/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="../style/style.css">
-
-    <title>Carlos Eduardo</title>
-    <link rel="icon" type="image/png" href="../img/favicon2.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <!-- HEADER -->
     <nav class="nav">
         <ul class="nav-list">
@@ -23,62 +23,85 @@
         </ul>
     </nav>
 
-    <!-- MAIN -->
-
+    <!-- MAIN (HERO) -->
     <section id="home" class="main">
         <div>
-            <h1>Seja bem vindo</h1>
+            <h1>Seja bem-vindo</h1>
             <p>Crie suas ideias e construa o futuro.</p>
-        <a href="#projects">
-            <button class="button-acess">Veja mais ☕</button>
-        </a>
+            <a href="#projects">
+                <button class="button-acess">Conheça meu trabalho ☕</button>
+            </a>
         </div>
     </section>
 
-    <!-- ABOUT -->
-     <section id="about" class="container-about">
-        <div>
-            <h2>Sobre</h2>
-            <p>👋 Olá, me chamo Carlos Eduardo, atualmente, sou estudante do curso de Ciência da Computação na UNIVASF e busco uma oportunidade para contribuir com meu conhecimento e habilidades. <br> Meu interesse pela área de tecnologia surgiu em 2020, ano em que iniciei o curso técnico em Informática integrado ao ensino médio pelo IFSERTÃOPE. <br><br> Durante esse período, tive contato com conceitos fundamentais como banco de dados, lógica de programação e diversas linguagens, incluindo Python, JavaScript, PHP e Java. No ensino superior, venho aprofundando ainda mais meus conhecimentos, com disciplinas que desafiam e ampliam minha capacidade lógica, além da participação em projetos práticos — como o desenvolvimento de um sistema de cadastro de plantas utilizando APIs e Java na disciplina de Programação Orientada a Objetos. Tenho grande interesse por inovações e pelo constante crescimento no setor de tecnologia.</p>
+    <!-- SOBRE -->
+    <section id="about" class="container-about">
+        <div class="about-text">
+            <h2>Sobre Mim</h2>
+            <p>👋 Olá, me chamo Carlos Eduardo, atualmente, sou estudante de Ciência da Computação na UNIVASF. </p>
+            <br>
+            <p>Tenho experiência com Java, APIRest, Spring Boot, MySQL, Estrutura de Dados, C, Banco de Dados relacional e entre outras tecnologias. Atualmente foco no desenvolvimento de sistemas robustos e soluções criativas, como o sistema de cadastro de plantas que desenvolvi utilizando APIs para a matéria POO (Programação Orientada a Objeto) na faculdade.</p>
         </div>
 
         <div class="links">
-            <h2>Links e Contatos</h2>
-            
-            <a href="https://www.linkedin.com/in/carlos-eduardo-a1b547330/" target="_blank"><img src="../img/linkedin-logo.png" alt="linkedin-logo"></a>
-            <a href="https://github.com/Eduardo4456" target="_blank"><img src="../img/github.png" alt="github-logo"></a>
-            <a href="mailto:eduardosantn12123@gmail.com" target="_blank"><img src="../img/gmail-logo.png" alt="gmail-logo"></a>
+            <h2>Contato</h2>
+            <div class="links-grid">
+                <a href="https://www.linkedin.com/in/carlos-eduardo-a1b547330/" target="_blank" title="LinkedIn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Eduardo4456" target="_blank" title="GitHub">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                </a>
+                <a href="mailto:eduardosantn12123@gmail.com" title="E-mail">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+                </a>
+            </div>
         </div>
+    </section>
 
-     </section>
+    <!-- PROJETOS -->
+    <section id="projects" class="projects">
+        <h2>Meus Projetos</h2>
+        <span class="projects-intro">Uma seleção dos meus trabalhos recentes</span>
 
-     <!-- PROJECTS -->
+        <div class="project-grid">
+            <!-- Projeto 1 -->
+            <a href="https://cicloestudos.netlify.app/" class="project-card" target="_blank">
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=600" alt="Ciclo de Estudos">
+                <div class="project-info">
+                    <h3>Ciclo de Estudos</h3>
+                    <p>Plataforma para organização de rotina acadêmica.</p>
+                </div>
+            </a>
 
-        <section id="projects" class="projects">
-            <h2>Meus Projetos</h2>
-            <p>Conheça meus projetos</p>
+            <!-- Projeto 2 -->
+            <a href="https://github.com/Eduardo4456/cloud-seed" class="project-card" target="_blank">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600" alt="Projeto Java">
+                <div class="project-info">
+                    <h3>Sistema de Plantas cloud-seed</h3>
+                    <p>Desenvolvido em Java puro com integração de API para matéria POO.</p>
+                </div>
+            </a>
 
-            <div class="project-list">
-                <a href="https://cicloestudos.netlify.app/" target="_blank"><img src="../img/ciclo.png" alt="Projeto ciclo"></a>
-                <img src="../img/codigo2.jpg" alt="Projeto 2">
-                <img src="../img/codigo2.jpg" alt="Projeto 3">
-            </div>
+            <!-- Projeto 3 -->
+            <a href="https://github.com/Eduardo4456/cloud-seed-spring" class="project-card" target="_blank">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600" alt="Projeto Spring">
+                <div class="project-info">
+                    <h3>cloud-seed com Spring</h3>
+                    <p>Sistema de Plantas desenvolvido em Java com Spring Boot.</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
-            <div class="project-list">
-                <img src="../img/codigo2.jpg" alt="Projeto 4">
-                <img src="../img/codigo2.jpg" alt="Projeto 5">
-                <img src="../img/codigo2.jpg" alt="Projeto 6">
-            </div>
-        </section>
-
-        <!-- RODAPE -->
-
-        <footer>
-            <h3>
-                <a href="https://www.linkedin.com/in/carlos-eduardo-a1b547330/" target="_blank">&#169; Carlos Eduardo</a>
-            </h3>
-            <p>todos os direitos reservados</p>
-        </footer>
+    <!-- RODAPÉ -->
+    <footer>
+        <h3>
+            <a href="https://www.linkedin.com/in/carlos-eduardo-a1b547330/" target="_blank">&copy; Carlos Eduardo</a>
+        </h3>
+        <p>Desenvolvido com foco em performance e acessibilidade.</p>
+        <p>Todos os direitos reservados - 2024</p>
+    </footer>
 
 </body>
 </html>
